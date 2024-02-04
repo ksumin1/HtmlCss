@@ -1,0 +1,35 @@
+.profile-img{
+  background-image: url('/cat.jpg'); 
+  background-size: cover; 
+  border-radius: 50%; 
+  width:60px; 
+  height: 60px; 
+  float:left;
+}
+.top-style{
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.comment-style{
+  margin-top:5px; 
+  margin-left: 10px; 
+  border:1px dotted gray; 
+  width:90%; 
+  height:150px;
+}
+.img-style{
+  background-image: url('/vegetables.jpg'); 
+  background-size:cover; 
+  background-position:center; 
+  width:30%; 
+  height:220px; 
+  float:left; 
+  border-radius:10px;
+}
+.headname-style{
+  margin-bottom:10px; 
+  margin-left:10px; 
+  width:70%; 
+  float:left;
+}
