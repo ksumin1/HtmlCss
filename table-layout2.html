@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .div{
+      width: 80%;
+      margin: auto;
+    }
+
+    .cart-top{
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      background-color: ghostwhite;
+      font-size: 12px;
+      padding: 8px;
+      margin-bottom: 20px;
+    }
+
+    .cart-top li{
+      display: inline-block;
+    }
+
+    .table-style{
+      border-collapse: collapse;
+      padding: 15px;
+      width: 80%;
+    }
+
+    .table-style td{
+      border: 1px solid gray;
+      border-left: none;
+      padding: 10px;
+      font-size: 12px;
+      vertical-align: top;
+    }
+
+    .td-style-1{
+      padding-bottom: 20px;
+      width: 50%;
+    }
+
+    .td-style-1 a,
+    .td-style-1 a:link,
+    .td-style-1 a:hover,
+    .td-style-1 a:active,
+    .td-style-1 a:visited{
+      color: black;
+      text-decoration: underline;
+    }
+
+    .td-style-1 p{
+      color: blue;
+    }
+
+    .table-style img{
+      width: 70px;
+      height: 70px;
+    }
+
+    .table-style input{
+      width: 80px;
+      height: 30px;
+      text-align: center;
+    }
+
+    
+
+    .td-style-2{
+      border-top: 1px solid red;
+      border-bottom: 1px solid red;
+      background-color: rgb(250, 230, 230);
+    }
+  </style>
+</head>
+<body>
+  <h3>장바구니</h3>
+  <div class="cart-top">
+    <ul>
+      <li>전체선택(-개)</li>
+      <li>선택삭제</li>
+    </ul>
+  </div>
+  
+  <div>
+    <table class="table-style">
+      <tr>
+        <td colspan="4">상품명  ></td>
+      </tr>
+      <tr>
+        <td><img src="cat.jpg"></td>
+        <td class="td-style-1"><a href="#">[품질보장]어보 추억의 옛날 꼬치어묵탕<br>8개입x4봉+소스4봉+무4봉/연육75% </a>
+            <p>2/27(화)이내 도착</p>
+            <br><input type="number"> </td>
+        <td>15,110원
+            <input type="submit" value="바로구매"></td>
+        <td>무료배송</td>
+      </tr>
+      <tr>
+        <td colspan="4" class="td-style-2">스토어 주문합계 상품금액 15,900원 - 할인금액 790원 = 15,110원</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

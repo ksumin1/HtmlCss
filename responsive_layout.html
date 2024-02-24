@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .my-flex{
+      display: flex;    /*내가 보고 있는 화면의 50%차지*/
+      height: 50px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .my-space{
+      width:25%;
+      text-align: center;
+    }
+
+
+    @media screen and (max-width:1200px){
+      
+    }
+    @media screen and (max-width:768px){
+      
+    }
+  </style>
+</head>
+<body>
+
+<!-- 크기가 줄어들면 가로 -> 세로로 -->
+  <div class="my-flex">
+    <div class="my-space">
+      <h4>제목1</h4>
+      <p>본문글 1</p>
+    </div>
+    <div class="my-space">
+      <h4>제목2</h4>
+      <p>본문글2</p>
+    </div>
+    <div class="my-space">
+      <h4>제목3</h4>
+      <p>본문글3</p>
+    </div>
+    <div class="my-space">
+      <h4>제목4</h4>
+      <p>본문글4</p>
+    </div>
+  </div>
+</body>
+</html>
